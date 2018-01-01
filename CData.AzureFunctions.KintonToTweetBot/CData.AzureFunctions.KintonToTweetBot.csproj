@@ -7,6 +7,15 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data.CData.Kintone">
+      <HintPath>..\..\..\..\..\..\Program Files\CData\CData ADO.NET Provider for kintone 2017J\lib\System.Data.CData.Kintone.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="System.Data.CData.Twitter">
+      <HintPath>..\..\..\..\..\..\Program Files\CData\CData ADO.NET Provider for Twitter 2017J\lib\System.Data.CData.Twitter.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
